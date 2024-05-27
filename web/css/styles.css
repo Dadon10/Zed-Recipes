@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    margin: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe h3 {
+    margin: 0;
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form button {
+    padding: 0.5em 2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
